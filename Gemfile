@@ -45,7 +45,7 @@ gem 'jbuilder', '~> 2.5'
 # ------------------------------
 # UI / Icons
 # ------------------------------
-# gem 'bootstrap'        # styling
+gem 'bootstrap'        # styling
 # gem 'font-awesome-rails'  # icons
 
 
