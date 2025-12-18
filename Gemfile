@@ -46,7 +46,7 @@ gem 'simple_form'      # form helper (功能區塊示意)
 # UI / Icons
 # ------------------------------
 gem 'bootstrap-sass'        # styling
-# gem 'font-awesome-rails'  # icons
+gem 'font-awesome-rails'  # icons
 
 
 # Use Redis adapter to run Action Cable in production
