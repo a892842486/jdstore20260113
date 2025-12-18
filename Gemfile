@@ -40,12 +40,12 @@ gem 'jbuilder', '~> 2.5'
 # Authentication / Forms
 # ------------------------------
 gem 'devise'           # user authentication (功能區塊示意)
-# gem 'simple_form'      # form helper (功能區塊示意)
+gem 'simple_form'      # form helper (功能區塊示意)
 
 # ------------------------------
 # UI / Icons
 # ------------------------------
-gem 'bootstrap-sass'       # styling
+gem 'bootstrap-sass'        # styling
 # gem 'font-awesome-rails'  # icons
 
 
