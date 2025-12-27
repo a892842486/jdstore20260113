@@ -48,6 +48,11 @@ gem 'simple_form'      # form helper (功能區塊示意)
 gem 'bootstrap-sass'        # styling
 gem 'font-awesome-rails'  # icons
 
+# ------------------------------
+# Forms / Uploads
+# ------------------------------
+gem 'carrierwave'
+gem 'mini_magick'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
