@@ -54,6 +54,13 @@ gem 'font-awesome-rails'  # icons
 gem 'carrierwave'
 gem 'mini_magick'
 
+# ------------------------------
+# Mailer (Development)
+# ------------------------------
+group :development do
+  gem 'letter_opener'
+end
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
