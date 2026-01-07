@@ -36,30 +36,26 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
-# ------------------------------
+
 # Authentication / Forms
-# ------------------------------
 gem 'devise'           # user authentication (功能區塊示意)
 gem 'simple_form'      # form helper (功能區塊示意)
 
-# ------------------------------
 # UI / Icons
-# ------------------------------
 gem 'bootstrap-sass'        # styling
 gem 'font-awesome-rails'  # icons
 
-# ------------------------------
 # Forms / Uploads
-# ------------------------------
 gem 'carrierwave'
 gem 'mini_magick'
 
-# ------------------------------
 # Mailer (Development)
-# ------------------------------
 group :development do
   gem 'letter_opener'
 end
+
+# Models / Business Logic
+gem 'aasm'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
